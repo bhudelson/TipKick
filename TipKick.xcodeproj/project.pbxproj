@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CCE6586F1BF9921600F2C93C /* Tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCE6586F1BF9921600F2C93C /* TipKick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipKick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCE658721BF9921600F2C93C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCE658741BF9921600F2C93C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CCE658771BF9921600F2C93C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CCE658791BF9921600F2C93C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCE6587C1BF9921600F2C93C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCE6587E1BF9921600F2C93C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CCE658831BF9921600F2C93C /* TipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCE658831BF9921600F2C93C /* TipKick.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipKick.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCE658871BF9921600F2C93C /* TipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsTests.swift; sourceTree = "<group>"; };
 		CCE658891BF9921600F2C93C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CCE6588E1BF9921600F2C93C /* TipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCE6588E1BF9921600F2C93C /* TipKick.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipKick.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCE658921BF9921600F2C93C /* TipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsUITests.swift; sourceTree = "<group>"; };
 		CCE658941BF9921600F2C93C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,9 +77,9 @@
 		CCE658661BF9921600F2C93C = {
 			isa = PBXGroup;
 			children = (
-				CCE658711BF9921600F2C93C /* Tips */,
-				CCE658861BF9921600F2C93C /* TipsTests */,
-				CCE658911BF9921600F2C93C /* TipsUITests */,
+				CCE658711BF9921600F2C93C /* TipKick */,
+				CCE658861BF9921600F2C93C /* TipKickTests */,
+				CCE658911BF9921600F2C93C /* TipKickUITests */,
 				CCE658701BF9921600F2C93C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,14 +87,14 @@
 		CCE658701BF9921600F2C93C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CCE6586F1BF9921600F2C93C /* Tips.app */,
-				CCE658831BF9921600F2C93C /* TipsTests.xctest */,
-				CCE6588E1BF9921600F2C93C /* TipsUITests.xctest */,
+				CCE6586F1BF9921600F2C93C /* TipKick.app */,
+				CCE658831BF9921600F2C93C /* TipKick.xctest */,
+				CCE6588E1BF9921600F2C93C /* TipKick.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CCE658711BF9921600F2C93C /* Tips */ = {
+		CCE658711BF9921600F2C93C /* TipKick */ = {
 			isa = PBXGroup;
 			children = (
 				CCE658721BF9921600F2C93C /* AppDelegate.swift */,
@@ -104,33 +104,36 @@
 				CCE6587B1BF9921600F2C93C /* LaunchScreen.storyboard */,
 				CCE6587E1BF9921600F2C93C /* Info.plist */,
 			);
+			name = TipKick;
 			path = Tips;
 			sourceTree = "<group>";
 		};
-		CCE658861BF9921600F2C93C /* TipsTests */ = {
+		CCE658861BF9921600F2C93C /* TipKickTests */ = {
 			isa = PBXGroup;
 			children = (
 				CCE658871BF9921600F2C93C /* TipsTests.swift */,
 				CCE658891BF9921600F2C93C /* Info.plist */,
 			);
+			name = TipKickTests;
 			path = TipsTests;
 			sourceTree = "<group>";
 		};
-		CCE658911BF9921600F2C93C /* TipsUITests */ = {
+		CCE658911BF9921600F2C93C /* TipKickUITests */ = {
 			isa = PBXGroup;
 			children = (
 				CCE658921BF9921600F2C93C /* TipsUITests.swift */,
 				CCE658941BF9921600F2C93C /* Info.plist */,
 			);
+			name = TipKickUITests;
 			path = TipsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CCE6586E1BF9921600F2C93C /* Tips */ = {
+		CCE6586E1BF9921600F2C93C /* TipKick */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CCE658971BF9921600F2C93C /* Build configuration list for PBXNativeTarget "Tips" */;
+			buildConfigurationList = CCE658971BF9921600F2C93C /* Build configuration list for PBXNativeTarget "TipKick" */;
 			buildPhases = (
 				CCE6586B1BF9921600F2C93C /* Sources */,
 				CCE6586C1BF9921600F2C93C /* Frameworks */,
@@ -140,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = Tips;
+			name = TipKick;
 			productName = Tips;
-			productReference = CCE6586F1BF9921600F2C93C /* Tips.app */;
+			productReference = CCE6586F1BF9921600F2C93C /* TipKick.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CCE658821BF9921600F2C93C /* TipsTests */ = {
+		CCE658821BF9921600F2C93C /* TipKickTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CCE6589A1BF9921600F2C93C /* Build configuration list for PBXNativeTarget "TipsTests" */;
+			buildConfigurationList = CCE6589A1BF9921600F2C93C /* Build configuration list for PBXNativeTarget "TipKickTests" */;
 			buildPhases = (
 				CCE6587F1BF9921600F2C93C /* Sources */,
 				CCE658801BF9921600F2C93C /* Frameworks */,
@@ -158,14 +161,14 @@
 			dependencies = (
 				CCE658851BF9921600F2C93C /* PBXTargetDependency */,
 			);
-			name = TipsTests;
+			name = TipKickTests;
 			productName = TipsTests;
-			productReference = CCE658831BF9921600F2C93C /* TipsTests.xctest */;
+			productReference = CCE658831BF9921600F2C93C /* TipKick.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CCE6588D1BF9921600F2C93C /* TipsUITests */ = {
+		CCE6588D1BF9921600F2C93C /* TipKickUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CCE6589D1BF9921600F2C93C /* Build configuration list for PBXNativeTarget "TipsUITests" */;
+			buildConfigurationList = CCE6589D1BF9921600F2C93C /* Build configuration list for PBXNativeTarget "TipKickUITests" */;
 			buildPhases = (
 				CCE6588A1BF9921600F2C93C /* Sources */,
 				CCE6588B1BF9921600F2C93C /* Frameworks */,
@@ -176,9 +179,9 @@
 			dependencies = (
 				CCE658901BF9921600F2C93C /* PBXTargetDependency */,
 			);
-			name = TipsUITests;
+			name = TipKickUITests;
 			productName = TipsUITests;
-			productReference = CCE6588E1BF9921600F2C93C /* TipsUITests.xctest */;
+			productReference = CCE6588E1BF9921600F2C93C /* TipKick.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					CCE6586E1BF9921600F2C93C = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = AY66978GEJ;
 					};
 					CCE658821BF9921600F2C93C = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -204,7 +208,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CCE6586A1BF9921600F2C93C /* Build configuration list for PBXProject "Tips" */;
+			buildConfigurationList = CCE6586A1BF9921600F2C93C /* Build configuration list for PBXProject "TipKick" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,9 +221,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CCE6586E1BF9921600F2C93C /* Tips */,
-				CCE658821BF9921600F2C93C /* TipsTests */,
-				CCE6588D1BF9921600F2C93C /* TipsUITests */,
+				CCE6586E1BF9921600F2C93C /* TipKick */,
+				CCE658821BF9921600F2C93C /* TipKickTests */,
+				CCE6588D1BF9921600F2C93C /* TipKickUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -282,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		CCE658851BF9921600F2C93C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CCE6586E1BF9921600F2C93C /* Tips */;
+			target = CCE6586E1BF9921600F2C93C /* TipKick */;
 			targetProxy = CCE658841BF9921600F2C93C /* PBXContainerItemProxy */;
 		};
 		CCE658901BF9921600F2C93C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CCE6586E1BF9921600F2C93C /* Tips */;
+			target = CCE6586E1BF9921600F2C93C /* TipKick */;
 			targetProxy = CCE6588F1BF9921600F2C93C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -397,10 +401,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Tips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Blake-Hudelson.Tips";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TipKick;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -408,10 +415,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Tips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Blake-Hudelson.Tips";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TipKick;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -422,8 +432,8 @@
 				INFOPLIST_FILE = TipsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Blake-Hudelson.TipsTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tips.app/Tips";
+				PRODUCT_NAME = TipKick;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipKick.app/TipKick";
 			};
 			name = Debug;
 		};
@@ -434,8 +444,8 @@
 				INFOPLIST_FILE = TipsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Blake-Hudelson.TipsTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tips.app/Tips";
+				PRODUCT_NAME = TipKick;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipKick.app/TipKick";
 			};
 			name = Release;
 		};
@@ -445,7 +455,7 @@
 				INFOPLIST_FILE = TipsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Blake-Hudelson.TipsUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TipKick;
 				TEST_TARGET_NAME = Tips;
 				USES_XCTRUNNER = YES;
 			};
@@ -457,7 +467,7 @@
 				INFOPLIST_FILE = TipsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Blake-Hudelson.TipsUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TipKick;
 				TEST_TARGET_NAME = Tips;
 				USES_XCTRUNNER = YES;
 			};
@@ -466,7 +476,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CCE6586A1BF9921600F2C93C /* Build configuration list for PBXProject "Tips" */ = {
+		CCE6586A1BF9921600F2C93C /* Build configuration list for PBXProject "TipKick" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CCE658951BF9921600F2C93C /* Debug */,
@@ -475,29 +485,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CCE658971BF9921600F2C93C /* Build configuration list for PBXNativeTarget "Tips" */ = {
+		CCE658971BF9921600F2C93C /* Build configuration list for PBXNativeTarget "TipKick" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CCE658981BF9921600F2C93C /* Debug */,
 				CCE658991BF9921600F2C93C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		CCE6589A1BF9921600F2C93C /* Build configuration list for PBXNativeTarget "TipsTests" */ = {
+		CCE6589A1BF9921600F2C93C /* Build configuration list for PBXNativeTarget "TipKickTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CCE6589B1BF9921600F2C93C /* Debug */,
 				CCE6589C1BF9921600F2C93C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		CCE6589D1BF9921600F2C93C /* Build configuration list for PBXNativeTarget "TipsUITests" */ = {
+		CCE6589D1BF9921600F2C93C /* Build configuration list for PBXNativeTarget "TipKickUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CCE6589E1BF9921600F2C93C /* Debug */,
 				CCE6589F1BF9921600F2C93C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

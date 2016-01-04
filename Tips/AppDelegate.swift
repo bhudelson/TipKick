@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Tips
+//  TipKick
 //
-//  Created by Blake Hudelson on 11/15/15.
+//  Created by Blake Hudelson on 11/27/15.
 //  Copyright © 2015 Blake Hudelson. All rights reserved.
 //
 
@@ -41,6 +41,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
+    
 }
 

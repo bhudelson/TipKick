@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CCE6586E1BF9921600F2C93C"
-               BuildableName = "Tips.app"
-               BlueprintName = "Tips"
-               ReferencedContainer = "container:Tips.xcodeproj">
+               BuildableName = "TipKick.app"
+               BlueprintName = "TipKick"
+               ReferencedContainer = "container:TipKick.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CCE658821BF9921600F2C93C"
-               BuildableName = "TipsTests.xctest"
-               BlueprintName = "TipsTests"
-               ReferencedContainer = "container:Tips.xcodeproj">
+               BuildableName = "TipKick.xctest"
+               BlueprintName = "TipKickTests"
+               ReferencedContainer = "container:TipKick.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CCE6588D1BF9921600F2C93C"
-               BuildableName = "TipsUITests.xctest"
-               BlueprintName = "TipsUITests"
-               ReferencedContainer = "container:Tips.xcodeproj">
+               BuildableName = "TipKick.xctest"
+               BlueprintName = "TipKickUITests"
+               ReferencedContainer = "container:TipKick.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CCE6586E1BF9921600F2C93C"
-            BuildableName = "Tips.app"
-            BlueprintName = "Tips"
-            ReferencedContainer = "container:Tips.xcodeproj">
+            BuildableName = "TipKick.app"
+            BlueprintName = "TipKick"
+            ReferencedContainer = "container:TipKick.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CCE6586E1BF9921600F2C93C"
-            BuildableName = "Tips.app"
-            BlueprintName = "Tips"
-            ReferencedContainer = "container:Tips.xcodeproj">
+            BuildableName = "TipKick.app"
+            BlueprintName = "TipKick"
+            ReferencedContainer = "container:TipKick.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CCE6586E1BF9921600F2C93C"
-            BuildableName = "Tips.app"
-            BlueprintName = "Tips"
-            ReferencedContainer = "container:Tips.xcodeproj">
+            BuildableName = "TipKick.app"
+            BlueprintName = "TipKick"
+            ReferencedContainer = "container:TipKick.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
