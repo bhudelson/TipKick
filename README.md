@@ -14,6 +14,6 @@ TipKick, allows users to input a numeric amount, select from preset tip percenta
 
 #### Walkthrough of all user stories
 
-<img src="http://i.imgur.com/avr3uNJ.gif" alt="" width="300"> 
+<img src="https://i.imgur.com/1PmThRo.gif" alt="" width="300"> 
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
