@@ -1,10 +1,7 @@
 # TipKick
-This is an iOS tip calculator application created as part of the prework for [CodePath](http://codepath.com/).
 
 TipKick, allows users to input a numeric amount, select from preset tip percentages, and calculate a total bill amount. The calculator also allows users to split the total bill between 2-10 people. 
 
-#### Time spent
-12 hours spent in total
 
 #### Completed user stories
 
